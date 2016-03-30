@@ -9,3 +9,10 @@ $(document).scroll(function() {
     $('.navbar-inverse').css('background-color', 'transparent'); 
   }
 }); 
+
+/* employee section */
+$("figure").mouseleave(
+  function () {
+    $(this).removeClass("hover");
+  }
+);
