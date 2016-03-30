@@ -1,42 +1,39 @@
-var scroll_start = 0; 
+$(document).ready(function() {
+        
+   /* activate the carousel */
+   $("#modal-carousel").carousel({interval:false});
 
-$(document).scroll(function() { 
-  scroll_start = $(this).scrollTop(); 
-  console.log(scroll_start); 
-  if(scroll_start > 700) { 
-    $('.navbar-inverse').css('background-color', 'rgba(10,10,10,0.3)');
-  } else { 
-    $('.navbar-inverse').css('background-color', 'transparent'); 
-  }
+   /* change modal title when slide changes */
+   $("#modal-carousel").on("slid.bs.carousel",       function () {
+        $(".modal-title")
+        .html($(this)
+        .find(".active img")
+        .attr("title"));
+   });
 
+   /* when clicking a thumbnail */
+   $(".row .thumbnail").click(function(){
+    var content = $(".carousel-inner");
+    var title = $(".modal-title");
+  
+    content.empty();  
+    title.empty();
+  
+    var id = this.id;  
+     var repo = $("#img-repo .item");
+     var repoCopy = repo.filter("#" + id).clone();
+     var active = repoCopy.first();
+  
+    active.addClass("active");
+    title.html(active.find("img").attr("title"));
+    content.append(repoCopy);
 
-  /* employee section */
-  $("figure").mouseleave(
-    function () {
-      $(this).removeClass("hover");
-    }
-  );
-}); 
-
-$(document).ready(function(){
-  $(".close-button").bind("click", function(){
-    $(".sidebar-01").toggleClass("sidebar-hidden-01");
-    $(".employee-one").toggleClass("embiggen");
+    // show the modal
+    $("#modal-gallery").modal("show");
   });
-  $(".employee-one .employee-image-01").bind("click", function() {
-    $(".sidebar-01").toggleClass("sidebar-hidden-01");
-    $(".employee-one").toggleClass("embiggen");
-  });
-
-   $(".close-button").bind("click", function(){
-    $(".sidebar").toggleClass("sidebar-hidden");
-    $(".employee-two").toggleClass("embiggen");
-  });
-  $(".employee-two .employee-image-02").bind("click", function() {
-    $(".sidebar").toggleClass("sidebar-hidden");
-    $(".employee-two").toggleClass("embiggen");
-  });
-
-
 
 });
+
+
+
+
