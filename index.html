@@ -47,99 +47,159 @@
     <div class="overlay">
       <div class="content">
         <h1>Welcome to <strong><span class="color">Rachelle</span></strong></h1>
-        <p class="lead"> Design studio with <strong> passion </strong> and with</p>
-        <a href="#cf-about" class="fa fa-angle-down page-scroll"></a>
+        <p class="lead"> Design with <strong> passion </strong></p>
+      <div class="row center">
+        <div class="intro">
+          <a href="#main-content">
+          <img class="banner-arrow" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/15309/arrow.png" alt="down arrow"></a>
+        </div>
       </div>
     </div>
   </div>
+</div>
 
-  <!-- employee section  -->
+
+<!-- employee section  -->
+<div id="main-content">
   <div class="container">
     <div class="row">
-    <h1>Bootstrap 3 lightbox hidden gallery using modal</h1>
-        <hr>
-    
-    <div class="row">
+      <h2 class="text-center">FabFitFun Team</h2>
+
+      <!-- image one -->
+      <hr class="">
       
-      <!-- image 1 -->    
-      <div class="col-12 col-md-4 col-sm-6">
-        <a title="Image 1" href="#"> 
-          <img class="thumbnail img-responsive" id="image-1" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sq-sample6.jpg" alt="sq-sample6">
-        </a>
-      </div>
+        <div class="col-12 col-md-4 col-sm-6">
+          <a title="Image 1" href="#" class=""><img class="thumbnail img-responsive" id="image-1" src="images/paige.jpg"></a>
+        </div>
       
 
-              <div class="col-12 col-md-4 col-sm-6">
-          <a title="Image 2" href="#"> 
-            <img class="thumbnail img-responsive" id="image-2" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sq-sample10.jpg">
+            
+        <div class="col-12 col-md-4 col-sm-6">  
+          <a title="Image 2" href="#" class="">
+            <img class="thumbnail img-responsive" id="image-2" src="images/plitt.jpg">
+          </a>
+        </div>
+            
+        <div class="col-12 col-md-4 col-sm-6">  <a title="Nikki" href="#" class="">
+          <img class="thumbnail img-responsive" id="image-3" src="images/nikki.jpg">
           </a>
 
         </div>
-      
-      <!-- image 3 -->  
-      <div class="col-12 col-md-4 col-sm-6">
-        <a title="Image 3" href="#"> 
-          <img class="thumbnail img-responsive" id="image-3" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sq-sample6.jpg" alt="sq-sample6">
-        </a>
       </div>
+      <hr class="">
     </div>
   </div>
 
 
-  <div class="hidden" id="img-repo">
-    
-    <!-- #image-1 -->
-    <div class="item" id="image-1">
-      <img class="thumbnail img-responsive" title="Image 11" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sq-sample6.jpg" alt="sq-sample6">
-    </div>
-    
-      
-    
-    <!-- #image-2 -->
-    <div class="item" id="image-2">
-      <img class="thumbnail img-responsive" title="Image 21" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sq-sample10.jpg">
-    </div>
-        
-      
-    <!-- #image-3-->
-    <div class="item" id="image-3">
-      <img class="thumbnail img-responsive" title="Image 31" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sq-sample6.jpg" alt="sq-sample6">
-    </div>
-         
-    
+<div class="hidden" id="img-repo">
+  
+  <!-- #image-1 -->
+  <div class="item" id="image-1">
+    <img class="thumbnail img-responsive" title="Paige Hathaway" src="images/paige.jpg">
+  </div>
+  <div class="item" id="image-1">
+    <img class="thumbnail img-responsive" title="Greg Plitt" src="images/plitt.jpg">
+  </div>
+  <div class="item" id="image-1">
+    <img class="thumbnail img-responsive" title="Nikki Blackketter" src="images/nikki.jpg">
+  </div>
+
+  <!-- image 2 -->
+  <div class="item" id="image-2">
+    <img class="thumbnail img-responsive" title="Greg Plitt" src="images/plitt.jpg">
+  </div>
+  <div class="item" id="image-2">
+    <img class="thumbnail img-responsive" title="Nikki Blackketter" src="images/nikki.jpg">
+  </div>
+  <div class="item" id="image-2">
+    <img class="thumbnail img-responsive" title="Paige Hathaway" src="images/paige.jpg">
+  </div>
+
+  <!-- image 3 -->
+  <div class="item" id="image-3">
+    <img class="thumbnail img-responsive" title="Nikki Blackketter" src="images/nikki.jpg">
+  </div>
+  <div class="item" id="image-3">
+    <img class="thumbnail img-responsive" title="Paige Hathaway" src="images/paige.jpg">
+  </div>
+  <div class="item" id="image-3">
+    <img class="thumbnail img-responsive" title="Greg Plitt" src="images/plitt.jpg">
+  </div>
 </div>
 
+<!-- modal -->
 <div class="modal" id="modal-gallery" role="dialog">
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
-          <button class="close" type="button" data-dismiss="modal">×</button>
-          <h3 class="modal-title"></h3>
+        <button class="close" type="button" data-dismiss="modal">×</button>
+        <h3 class="modal-title"></h3>
       </div>
       <div class="modal-body">
-          <div id="modal-carousel" class="carousel">
-   
-            <div class="carousel-inner">           
-            </div>
-            
-            <a class="carousel-control left" href="#modal-carousel" data-slide="prev"><i class="glyphicon glyphicon-chevron-left"></i></a>
-            <a class="carousel-control right" href="#modal-carousel" data-slide="next"><i class="glyphicon glyphicon-chevron-right"></i></a>
-            
+        <div id="modal-carousel" class="carousel">
+          <div class="carousel-inner"></div> <a class="carousel-control left" href="#modal-carousel" data-slide="prev"><i class="glyphicon glyphicon-chevron-left"></i></a>
+
+            <a class="carousel-control right" href="#modal-carousel" data-slide="next"><i class="glyphicon glyphicon-chevron-right"></i>
+            </a>
           </div>
-      </div>
-      <div class="modal-footer">
+        </div>
+        <div class="modal-footer">
           <button class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
       </div>
     </div>
   </div>
 </div>
-  
-  <!-- ==============================================
-                JS
-  =============================================== -->
-  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-  <script src="js/bootstrap.min.js"></script> 
-  <script src="js/fit.js"></script> 
-  </body> 
-</html>  
 
+<!-- credit-card section -->
+<div class="credit-section"> 
+  <div class="container"> 
+  <form>
+      <div class="form-group">
+        <div class="form-group" id="credit-card-form">
+          <label for="sel1">Credit Card Expiration:</label>
+            <select class="form-control" id="credit-card-month">
+              <option>01</option>
+              <option>02</option>
+              <option>03</option>
+              <option>04</option>
+              <option>05</option>
+              <option>06</option>
+              <option>07</option>
+              <option>08</option>
+              <option>09</option>
+              <option>10</option>
+              <option>11</option>
+              <option>12</option>
+            </select>
+            <select class="form-control" id="credit-card-year">
+              <option>2016</option>
+              <option>2017</option>
+              <option>2018</option>
+              <option>2019</option>
+              <option>2020</option>
+              <option>2021</option>
+              <option>2022</option>
+              <option>2023</option>
+              <option>2024</option>
+              <option>2025</option>
+              <option>2027</option>
+              <option>2028</option>
+            </select>
+        </div>
+      </div>
+      <button type="submit" id="submit-button" class="btn btn-default">Submit</button>
+      <div id="credit-card-warning" class='alert-danger'> Uh-oh that credit card looks like it's expired. Could you try another one? </div>
+      <div id="credit-card-success" class='alert-success'> Thanks! Now on to the next page</div>
+
+    </form>
+  </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/fit.js"></script>
+<script src="js/credit-card.js"></script>
+
+</body>
+</html>

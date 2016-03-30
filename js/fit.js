@@ -32,6 +32,7 @@ $(document).ready(function() {
     $("#modal-gallery").modal("show");
   });
 
+  
 });
 
 

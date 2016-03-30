@@ -1,7 +1,7 @@
 @import "compass/css3";
 
 body {
-  margin:0px !important;
+  margin:0px;
   font-family: 'Playfair Display', serif;
   font: 14px/18px "Helvetica Neue", Helvetica, sans-serif;
 }
@@ -18,7 +18,6 @@ html {
 
 .text-logo {
   display: inline-block;
-  
 }
 
 .navbar-brand {
@@ -54,12 +53,12 @@ html {
 }
 
 #cf-personal {
-    background: url("http://healthyandstylish.com/wp-content/uploads/2015/08/carrots-for-healthy-eating.jpg");
-    background-size: cover;
-    background-position:center;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    color: #ffffff;
+  background: url("http://healthyandstylish.com/wp-content/uploads/2015/08/carrots-for-healthy-eating.jpg");
+  background-size: cover;
+  background-position:center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  color: #ffffff;
 }
 @media (min-resolution: 192dpi), (-webkit-min-device-pixel-ratio: 2), (min--moz-device-pixel-ratio: 2), (-o-min-device-pixel-ratio: 2/1), (min-device-pixel-ratio: 2), (min-resolution: 2dppx) {
   #cf-jumbotron {
@@ -109,6 +108,7 @@ html {
   height: 750px;
   background-attachment: fixed;
 }
+
 #cf-jumbotron p.lead{
   color: #e3e3e3;
 }
@@ -158,29 +158,29 @@ h1 {
 
 
 hr{
-    border: 0;
-    height: 1px;
-    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
 }
 
  
 
 #cf-personal .overlay {
-    background: -moz-linear-gradient(top, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.73) 17%, rgba(0,0,0,0.66) 35%, rgba(0,0,0,0.55) 62%, rgba(0,0,0,0.4) 100%);
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0.8)), color-stop(17%,rgba(0,0,0,0.73)), color-stop(35%,rgba(0,0,0,0.66)), color-stop(62%,rgba(0,0,0,0.55)), color-stop(100%,rgba(0,0,0,0.4)));
-    background: -webkit-linear-gradient(top, rgba(0,0,0,0.8) 0%,rgba(0,0,0,0.73) 17%,rgba(0,0,0,0.66) 35%,rgba(0,0,0,0.55) 62%,rgba(0,0,0,0.4) 100%);
-    background: -o-linear-gradient(top, rgba(0,0,0,0.8) 0%,rgba(0,0,0,0.73) 17%,rgba(0,0,0,0.66) 35%,rgba(0,0,0,0.55) 62%,rgba(0,0,0,0.4) 100%);
-    background: -ms-linear-gradient(top, rgba(0,0,0,0.8) 0%,rgba(0,0,0,0.73) 17%,rgba(0,0,0,0.66) 35%,rgba(0,0,0,0.55) 62%,rgba(0,0,0,0.4) 100%);
-    background: linear-gradient(to bottom, rgba(0,0,0,0.8) 0%,rgba(0,0,0,0.73) 17%,rgba(0,0,0,0.66) 35%,rgba(0,0,0,0.55) 62%,rgba(0,0,0,0.4) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cc000000', endColorstr='#66000000',GradientType=0 );
+  background: -moz-linear-gradient(top, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.73) 17%, rgba(0,0,0,0.66) 35%, rgba(0,0,0,0.55) 62%, rgba(0,0,0,0.4) 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0.8)), color-stop(17%,rgba(0,0,0,0.73)), color-stop(35%,rgba(0,0,0,0.66)), color-stop(62%,rgba(0,0,0,0.55)), color-stop(100%,rgba(0,0,0,0.4)));
+  background: -webkit-linear-gradient(top, rgba(0,0,0,0.8) 0%,rgba(0,0,0,0.73) 17%,rgba(0,0,0,0.66) 35%,rgba(0,0,0,0.55) 62%,rgba(0,0,0,0.4) 100%);
+  background: -o-linear-gradient(top, rgba(0,0,0,0.8) 0%,rgba(0,0,0,0.73) 17%,rgba(0,0,0,0.66) 35%,rgba(0,0,0,0.55) 62%,rgba(0,0,0,0.4) 100%);
+  background: -ms-linear-gradient(top, rgba(0,0,0,0.8) 0%,rgba(0,0,0,0.73) 17%,rgba(0,0,0,0.66) 35%,rgba(0,0,0,0.55) 62%,rgba(0,0,0,0.4) 100%);
+  background: linear-gradient(to bottom, rgba(0,0,0,0.8) 0%,rgba(0,0,0,0.73) 17%,rgba(0,0,0,0.66) 35%,rgba(0,0,0,0.55) 62%,rgba(0,0,0,0.4) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cc000000', endColorstr='#66000000',GradientType=0 );
 }
 
 .section-title.center hr {
-    border-top: 2px solid rgba(252, 172, 69, 0.54);
-    width: 90%;
-    text-align: center;
-    margin-top: 10px;
-    position: relative;
+  border-top: 2px solid rgba(252, 172, 69, 0.54);
+  width: 90%;
+  text-align: center;
+  margin-top: 10px;
+  position: relative;
 }
 
 li {
@@ -193,9 +193,9 @@ li {
   background: #C02425;
   background: -webkit-linear-gradient(to left, #C02425 , #F0CB35); 
   background: linear-gradient(to left, #C02425 , #F0CB35); 
-    color: #ffffff;
-    padding: 15px 0 10px 0;
-    width:100%;
+  color: #ffffff;
+  padding: 15px 0 10px 0;
+  width:100%;
 }
 
 a.fa.fa-angle-down {
@@ -212,111 +212,13 @@ a.fa.fa-angle-down {
 @import url(http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
 @import url(https://fonts.googleapis.com/css?family=Raleway:400,800);
 
-.snip0044 {
-  font-family: 'Raleway', Arial, sans-serif;
-  position: relative;
-  float: left;
-  overflow: hidden;
-  margin: 10px 1%;
-  min-width: 220px;
-  max-width: 310px;
-  max-height: 220px;
-  width: 100%;
-  background: #000000;
-  text-align: left;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-}
 
-.snip0044 * {
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-  -webkit-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
-}
-
-.snip0044 img {
-  max-width: 100%;
-  position: relative;
-  top: 0;
-  opacity: 1.0;
-  left: 0;
-  -webkit-transition: 0.3s ease-in-out;
-  transition: 0.3s ease-in-out;
-  -webkit-transform-origin: 0 100%;
-  transform-origin: 0 100%;
-}
-
-.snip0044 h3 {
-  position: absolute;
-  color: #ffffff;
-  bottom: 0;
-  text-transform: uppercase;
-  padding: 6px;
-  margin: 0;
-  left: 40px;
-  opacity: 0;
-  -webkit-transform: translate(-10px, 0);
-  transform: translate(-10px, 0);
-  -webkit-transition-delay: 0;
-  transition-delay: 0;
-}
-
-.snip0044 a {
-  opacity: 0.8;
-}
-
-.snip0044 a:hover {
-  opacity: 1;
-}
-
-.snip0044 a:hover i {
-  width: 40px;
-  -webkit-transition: all 0.1s;
-  transition: all 0.1s;
-}
-
-.snip0044.blue {
-  background: #091b27;
-}
-
-.snip0044:hover img,
-.snip0044.hover img {
-  opacity: 0.5;
-  -webkit-transform: scale(1.05);
-  transform: scale(1.05);
-}
-
-.snip0044:hover h3,
-.snip0044.hover h3 {
-  -webkit-transform: translate(0, 0);
-  transform: translate(0, 0);
-  -webkit-transition-delay: 0.2s;
-  transition-delay: 0.2s;
-  opacity: 1;
-}
-
-.snip0044:hover a:first-child i,
-.snip0044.hover a:first-child i {
-  -webkit-transition-delay: 0.2s;
-  transition-delay: 0.2s;
-}
-
-.snip0044:hover a:nth-child(2) i,
-.snip0044.hover a:nth-child(2) i {
-  -webkit-transition-delay: 0.1s;
-  transition-delay: 0.1s;
-}
-
-.snip0044:hover a:nth-child(3) i,
-.snip0044.hover a:nth-child(3) i {
-  -webkit-transition-delay: 0s;
-  transition-delay: 0s;
-}
 
 /* modal for employee */
 .thumbnail {
   margin-bottom:6px;
+  height: 400px;
+  width: 400px;
 }
 
 .carousel-control.left,.carousel-control.right{
@@ -324,3 +226,90 @@ a.fa.fa-angle-down {
   margin-top:10%;
   width:5%;
 }
+
+/* image hover effect */
+.nd-wrap {
+  overflow: hidden;
+  text-align: center;
+  margin: 0 auto;
+  position: relative;
+  display: inline-block;
+}
+
+.nd-wrap img {
+  width: 200px;
+  display: block;
+}
+
+.nd-title {
+  position: relative;   
+  top: -150px;
+  opacity: 0;
+  margin: 0 0 30px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  -webkit-transition: all 1s ease 0.01s;
+      transition: all 1s ease 0.01s;
+}
+
+.nd-title span {
+  color: #fff;  
+  font-size: 32px;
+  font-weight: bold;
+  padding: 0 20px 15px;
+  border-bottom: 1px solid #ccc;
+  display: inline-block;
+}
+
+.nd-content {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  -webkit-transition: all 0.5s ease;
+      transition: all 0.5s ease;
+}
+
+.nd-content_inner {
+  display: table;
+  width: 100%;
+  height: 100%;
+}
+
+.nd-content_inner1 {
+  display: table-cell;
+  width: 100%;
+  height: 100%;
+  vertical-align: middle;
+}
+
+/* =============== HOVER AREA =============== */
+.nd-wrap:hover .nd-icon,
+.nd-wrap:hover .nd-content,
+.nd-wrap:hover .nd-title {
+  opacity: 1;
+  top: 0;
+}
+
+.nd-wrap:hover .nd-title {
+  -webkit-transition: all 0.5s cubic-bezier(1.000, -0.530, 0.405, 1.425) 0.01s;
+      transition: all 0.5s cubic-bezier(1.000, -0.530, 0.405, 1.425) 0.01s;
+}
+
+.nd-wrap:hover .nd-content {
+  background: rgba(0, 0, 0, 0.5);
+}
+
+/* ============================== HOVER STYLE ============================== */
+
+.nd-wrap.nd-style:hover .nd-title {
+  -webkit-transition: all 0.5s ease 0.01s;
+      transition: all 0.5s ease 0.01s;
+}
+.nd-style .nd-icon {
+  top: 150px;
+  -webkit-transition-timing-function: ease;
+      transition-timing-function: ease;
+}
+
