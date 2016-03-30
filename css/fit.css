@@ -13,7 +13,7 @@ html {
 .logo {
   width: 50px;
   margin-top: -15px;
-  display: inline-block !important;
+  display: inline-block;
 }
 
 .text-logo {
@@ -44,7 +44,7 @@ html {
 }
 
 #cf-jumbotron {
-  background-image: url(http://www.cjhockett.com/data/photos/359_1red_fox_10.jpg);
+  background-image: url("../images/running.jpg");
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -212,8 +212,6 @@ a.fa.fa-angle-down {
 @import url(http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
 @import url(https://fonts.googleapis.com/css?family=Raleway:400,800);
 
-
-
 /* modal for employee */
 .thumbnail {
   margin-bottom:6px;
@@ -223,12 +221,25 @@ a.fa.fa-angle-down {
   float: left;
 }
 
-
-
 .carousel-control.left,.carousel-control.right{
   background-image:none;
   margin-top:10%;
   width:5%;
 }
 
+.credit-section { 
+  width: 100%;
+  padding: 100px;
+  background-color: #F2F5F4;
+}
+
+#main-content { 
+  padding-left: 140px;
+  padding-right: 140px;
+  display: inline-block;
+}
+
+.text-section { 
+  text-align: center;
+}
 
