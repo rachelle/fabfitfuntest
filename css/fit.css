@@ -374,7 +374,7 @@ figure.snip0044.hover a:nth-child(3) i {
   overflow: hidden;
 }
 
-.image-container {
+.employee-one {
   background-color: #ecf0f1;
   display: -webkit-flex;
   -webkit-flex: 1 0 0;
@@ -382,18 +382,21 @@ figure.snip0044.hover a:nth-child(3) i {
   -webkit-align-items: center;
   cursor: pointer;
   transition: all 0.3s;
-  img {
-    width: 300px;
-    border: solid #fff 10px;
-    transition: all 0.2s;
-    &:hover {
-      transition: all 0.2s;
-      box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1);
-    }
-  }
 }
 
-.sidebar {
+.employee-image-01 {
+  width: 300px;
+  border: solid #fff 10px;
+  transition: all 0.2s;
+}
+
+.employee-image-01:hover {
+   transition: all 0.2s;
+   box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1);
+}
+  
+
+.sidebar-01 {
   margin-right: 0;
   padding: 20px;
   width: 300px;
@@ -401,25 +404,28 @@ figure.snip0044.hover a:nth-child(3) i {
   color: #2c3e50;
   height: 100%;
   transition: all 0.3s;
-  .close-button {
+}
+
+.close-button {
     float: right;
     color: #ccc;
-    &:hover {
+}   
+
+.close-button:hover {
       cursor: pointer;
       color: #2980b9;
       transition: all 0.3s;
-    }
-  }
-  .title {
+}
+
+.title {
     clear: both;
     font-weight: bold;
     font-size: 18px;
     margin-bottom: 9px;
-  }
-  .description {}
 }
+ 
 
-.sidebar-hidden {
+.sidebar-hidden-01 {
   margin-right: -300px;
   transition: all 0.3s;
 }
@@ -433,7 +439,8 @@ figure.snip0044.hover a:nth-child(3) i {
   width: 100%;
   transition: all 0.1s;
   border: 0;
-  &:hover {
+}
+
+.embiggen:hover {
     box-shadow: none;
   }
-}

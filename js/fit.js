@@ -20,11 +20,23 @@ $(document).scroll(function() {
 
 $(document).ready(function(){
   $(".close-button").bind("click", function(){
-    $(".sidebar").toggleClass("sidebar-hidden");
-    $(".image-container").toggleClass("embiggen");
+    $(".sidebar-01").toggleClass("sidebar-hidden-01");
+    $(".employee-one").toggleClass("embiggen");
   });
-  $(".image-container img").bind("click", function() {
-    $(".sidebar").toggleClass("sidebar-hidden");
-    $(".image-container").toggleClass("embiggen");
+  $(".employee-one .employee-image-01").bind("click", function() {
+    $(".sidebar-01").toggleClass("sidebar-hidden-01");
+    $(".employee-one").toggleClass("embiggen");
   });
+
+   $(".close-button").bind("click", function(){
+    $(".sidebar").toggleClass("sidebar-hidden");
+    $(".employee-two").toggleClass("embiggen");
+  });
+  $(".employee-two .employee-image-02").bind("click", function() {
+    $(".sidebar").toggleClass("sidebar-hidden");
+    $(".employee-two").toggleClass("embiggen");
+  });
+
+
+
 });
