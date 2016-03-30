@@ -8,11 +8,23 @@ $(document).scroll(function() {
   } else { 
     $('.navbar-inverse').css('background-color', 'transparent'); 
   }
+
+
+  /* employee section */
+  $("figure").mouseleave(
+    function () {
+      $(this).removeClass("hover");
+    }
+  );
 }); 
 
-/* employee section */
-$("figure").mouseleave(
-  function () {
-    $(this).removeClass("hover");
-  }
-);
+$(document).ready(function(){
+  $(".close-button").bind("click", function(){
+    $(".sidebar").toggleClass("sidebar-hidden");
+    $(".image-container").toggleClass("embiggen");
+  });
+  $(".image-container img").bind("click", function() {
+    $(".sidebar").toggleClass("sidebar-hidden");
+    $(".image-container").toggleClass("embiggen");
+  });
+});
