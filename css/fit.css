@@ -243,7 +243,9 @@ a.fa.fa-angle-down {
   text-align: center;
 }
 
-button { 
+.alert-success, .alert-danger{ 
   display: none;
 }
+
+
 
