@@ -243,3 +243,7 @@ a.fa.fa-angle-down {
   text-align: center;
 }
 
+button { 
+  display: none;
+}
+
